@@ -1,12 +1,14 @@
 !SLIDE center
 # GitHub #
+![Octocat](octocat.png)
 
 !SLIDE bullets
 # Features #
 * Free Hosting for Open Source Projects
 * Social aspect to coding
 * Easy Project Forking
-* Gist
+* Gists
+* Keyboard Shortcuts
 * SVN Support
 
 !SLIDE bullets
