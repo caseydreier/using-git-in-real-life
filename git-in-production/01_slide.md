@@ -17,7 +17,8 @@
 
 !SLIDE bullets
 
-* Started using Git about 3 months ago
+* Using SVN since 2007
+* Started using Git about 4 months ago
 * Used as the main VCS in 2 client projects
 
 !SLIDE bullets
@@ -25,6 +26,22 @@
 * Two permanent remote branches, **master** and **development**
 * Local (topic) branches off of development
 * Master branch is *only* used for production-ready code
+
+!SLIDE center
+![Workflow](workflow.png)
+
+!SLIDE bullets
+
+* Branching maps to Production and Staging servers
+* Development Branch --> Staging Site
+* Master Branch --> Production Site
+
+!SLIDE bullets
+# Workflow #
+## (Agile) ##
+
+* New features developed in local topic branches off of development
+* When feature is ready for client testing, merged into development
 
 !SLIDE center
 ![Branching Workflow](topic-branching.png)
