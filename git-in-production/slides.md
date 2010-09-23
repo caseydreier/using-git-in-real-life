@@ -52,7 +52,8 @@
 * New features developed in local topic branches off of development
 
 !SLIDE commandline incremental
-    $ git checkout -b sweetness-feature
+    $ git branch sweetness-feature
+    $ git checkout sweetness-feature
     Switched to a new branch 'sweetness-feature'
     *hackity hack hack hack...*
 
@@ -109,7 +110,7 @@
 * Fewer merge conflicts, since each feature is safe in its sandbox
 * Flexible workflow
 * Hotfixes on Master branch that can be merged back into development
-* Increased number of commits (more atomic)
+* Increased number of smaller commits
 
 !SLIDE bullets
 
